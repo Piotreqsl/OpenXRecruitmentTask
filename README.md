@@ -1,5 +1,5 @@
 
-# OpenX - Piotr Śliperski - zadanie rekrutacyjne
+# OpenX - Piotr Śliperski - 2 recruitment task
 
 When i tried to fetch fakestoreapi.com/carts i got following error
 
