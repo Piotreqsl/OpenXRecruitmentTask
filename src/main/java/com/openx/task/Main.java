@@ -22,9 +22,8 @@ public class Main {
         System.out.println("TASK NUMBER ONE");
         ArrayList<User> users = (ArrayList<User>) UserProvider.getData();
         ArrayList<Product> products = (ArrayList<Product>) ProductProvider.getData();
-        ///important node
         ArrayList<Cart> carts = (ArrayList<Cart>) CartProvider.getData();
-        System.out.println(carts.get(0).getProducts().get(0).getProduct().getDescription());
+
 
 
         System.out.println("TASK NUMBER TWO");
@@ -37,11 +36,9 @@ public class Main {
 
         System.out.println("TASK NUMBER FOUR");
         List<User> topTwo = UserDistanceFinder.getMostFarAwayUsers(users);
-
         System.out.println(topTwo.get(0).getAddress().getGeolocation());
         System.out.println(topTwo.get(1).getAddress().getGeolocation());
 
-//        System.out.println(cartList.get(0).getProducts());
 
     }
 }
