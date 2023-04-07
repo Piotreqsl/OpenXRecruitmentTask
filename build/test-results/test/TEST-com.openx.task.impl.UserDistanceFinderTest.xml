@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.openx.task.impl.UserDistanceFinderTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2023-04-07T15:25:24" hostname="DESKTOP-742T74R" time="0.011">
+  <properties/>
+  <testcase name="shouldReturnFarthestUsers()" classname="com.openx.task.impl.UserDistanceFinderTest" time="0.009"/>
+  <testcase name="shouldReturnSameListWhenOnly2ArgsGiven()" classname="com.openx.task.impl.UserDistanceFinderTest" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
